@@ -1,15 +1,17 @@
-body{background-image: url(https://yeshivasfrankfurt.org/wp-content/uploads/2021/03/yeshiva-header.jpg);
-   width:1920px;
-    background-color: #f8e0b3;
-    height:1080px;
-@media screen and (min-width: 500px) 
-   body {
-      width:420px;}
-@media screen and (min-width: 800px) 
-   body 
-      width:720px;
-   }
-  
+body{background-image: url("https://yt3.ggpht.com/HnGDsxXvS688Q-X2CJDDVZm1qFR-9ulDLLRaegeiy_cm6ttRPbgV7LkCJJavGvkNfjMEpp0k=s176-c-k-c0x00ffffff-no-rj");
+    
+        width: 1600px
+        height: 1000px;
+    @media screen and (min-width: 460px) 
+       body 
+          width:380px;
+    @media screen and (min: width 600px;) 
+       body 
+          width: 520px;
+       }
+
+#a{background-color:rgba(127, 56, 32, 1.00);}
+#H{background-color:rgba(9, 245, 80, 0.575);}
 p{background-color: rgba(0, 140, 255, 0.699);}
 em{background-color: blue;}
 .sa{background-color: rgb(80, 197, 197);}
@@ -19,16 +21,15 @@ em{background-color: blue;}
 #u{background-color:rgb(128,255,212);}
 h4{background-color: coral;}
 h2{background-color: rgb(37, 153, 153);}
-#r{background-color:rgb(52, 255, 52) ;}
-#f{background-color: rgba(116, 25, 25, 0.603);}
+
 @media screen and (max-width:1500px) {
-body{
-   width:90%;
-   height: 90%; 
+   body{
+       width:90%;
+       height: 90%;
 
-}
-iframe{
-  width: 90%;
-}
-
-}
+   }
+  iframe{
+      width: 90%;
+  }
+  
+ }
