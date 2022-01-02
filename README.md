@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="cours.css">
 </head>
 <body>
-    <h1>COURS</h1>
     <p>un cours de torah</p>
        <iframe width="560" height="315" src="https://www.youtube.com/embed/J_sg5oqXUms" id="youtube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br>
