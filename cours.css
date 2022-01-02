@@ -1,0 +1,53 @@
+
+  body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
+    width:1920px;
+    background-color: transparent;
+    height:1080px;
+@media screen and (min-width: 500px) 
+   body {
+      width:420px;}
+@media screen and (min-width: 800px) 
+   body 
+      width:720px;
+  }
+    
+         
+         #halakha{color: greenyellow;}
+           
+          h1{text-align: center;
+        color: blue;}
+          p{text-align: center; 
+        color: blueviolet;}
+          @media screen and (max-width:1500px)and(min-width:1000px) {
+              body{
+               width: 90%;
+               height: 90%;
+              margin:90% ;
+              }
+              iframe{
+                width: 90%;
+                height:90% ;
+                width: 90%;
+              } 
+              audio{width: 90%;
+                margin: 90%;
+                height: 90%;
+              }
+
+              }
+              video{
+                width: 90%;
+                height: 90%;
+                width: 90%;
+              }
+             em{
+                 width: 90%;
+             }
+             h1{width: 90%;}
+             p{
+                 width: 90%;
+             }
+             div{
+                 width: 90%;
+             }
+            }

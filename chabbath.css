@@ -1,0 +1,22 @@
+h1{color: orange;}
+.chabbath{color: orangered;}
+body{background-image: url(chabbath.jfif);
+ width:1920px;
+    background-color: #f8e0b3;
+    height:1080px;
+@media screen and (min-width: 500px) 
+   body {
+      width:420px;}
+@media screen and (min-width: 800px) 
+   body 
+      width:720px;}
+   
+
+img{font-size: 1px ;}
+@media screen and (max-width:1000px) {
+   img{
+       width:90%;
+       margin: auto;
+       height: 90%;
+
+   }

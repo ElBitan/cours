@@ -1,0 +1,34 @@
+body{background-image: url(https://yeshivasfrankfurt.org/wp-content/uploads/2021/03/yeshiva-header.jpg);
+   width:1920px;
+    background-color: #f8e0b3;
+    height:1080px;
+@media screen and (min-width: 500px) 
+   body {
+      width:420px;}
+@media screen and (min-width: 800px) 
+   body 
+      width:720px;
+   }
+  
+p{background-color: rgba(0, 140, 255, 0.699);}
+em{background-color: blue;}
+.sa{background-color: rgb(80, 197, 197);}
+#sa{background-color: rgb(58, 143, 146);}
+#o{background-color:gold;}
+#d{background-color:lime;}
+#u{background-color:rgb(128,255,212);}
+h4{background-color: coral;}
+h2{background-color: rgb(37, 153, 153);}
+#r{background-color:rgb(52, 255, 52) ;}
+#f{background-color: rgba(116, 25, 25, 0.603);}
+@media screen and (max-width:1500px) {
+body{
+   width:90%;
+   height: 90%; 
+
+}
+iframe{
+  width: 90%;
+}
+
+}
