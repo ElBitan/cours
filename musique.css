@@ -1,12 +1,14 @@
 h3{background-image: url(שירים.jpeg);
 color: cornflowerblue;}
 body{background-image: url(שירים.jpeg);
-    width:1920px;
-    background-color: transparent;
-    height:1080px;
-@media screen and (min-width: 500px) 
-   body {
-      width:420px;}
+          width: 1600px
+        height: 1000px;
+    @media screen and (min-width: 460px) 
+       body 
+          width:380px;
+    @media screen and (min: width 600px;) 
+       body 
+          width: 520px;  }
 @media screen and (min-width: 800px) 
    body 
       width:720px;   }
