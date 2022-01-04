@@ -14,7 +14,7 @@
         <br> 
 <em>Halakha-Time : Moussaf de Chabbath : avec ou sans répétition ?</em>
  
-</  <a href ="Halakha-Time  Moussaf de Chabbath  avec ou sans répétition.mp4" id="halakha">Halakha</a>
+  <a href ="Halakha-Time  Moussaf de Chabbath  avec ou sans répétition.mp4" id="halakha">Halakha</a>
         <br>
          <video src="Halakha-Time  Moussaf de Chabbath  avec ou sans répétition.mp4" width="90%" height="90%"></video>
     </section>
