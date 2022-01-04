@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -28,6 +28,6 @@
     <a href="horaires de chabbath.html" id="horaires">horaires de chabbath</a>
     <br>
       <a href="musique.html">שירים</a>
-</video>
+
 </body>
 </html>
