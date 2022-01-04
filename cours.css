@@ -1,5 +1,5 @@
-body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
-        
+body{background-image: url("https://yt3.ggpht.com/HnGDsxXvS688Q-X2CJDDVZm1qFR-9ulDLLRaegeiy_cm6ttRPbgV7LkCJJavGvkNfjMEpp0k=s176-c-k-c0x00ffffff-no-rj");
+    
         width: 1600px
         height: 1000px;
     @media screen and (min-width: 460px) 
@@ -9,19 +9,14 @@ body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b
        body 
           width: 520px;
        }
-         
-         #halakha{color: greenyellow;}
-           
-            #youtube {
-           width: 50%;
-          height: 50vh;
-          object-fit: cover;
-          }
-          h1{text-align: center;
-        color: blue;}
-          p{text-align: center; 
-        color: blueviolet;}
-          
+
+p{background-color: rgba(0, 140, 255, 0.699);}
+em{background-color: blue;}
+.halakha{background-color: rgb(80, 197, 197);}
+#halakha{background-color: rgb(58, 143, 146);}
+#horaires{background-color:rgb(128,255,212);}
+h
+
 
 @media screen and (max-width:1500px) {
    body{
@@ -32,27 +27,13 @@ body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b
   iframe{
       width: 90%;
   }
-  
- }
 
-                
-                  
-                 audio{width: 90%;
+  
+ audio{width: 90%;
                 
                 height: 90%;
               }
 
-             video{
+           video{
                  width: 90%;
              }
-             em{
-                 width: 90%;
-             }
-             h1{width: 90%;}
-             p{
-                 width: 90%;
-             }
-             div{
-                 width: 90%;
-             }
-            }
