@@ -1,5 +1,4 @@
-body{background-image: url("https://yt3.ggpht.com/HnGDsxXvS688Q-X2CJDDVZm1qFR-9ulDLLRaegeiy_cm6ttRPbgV7LkCJJavGvkNfjMEpp0k=s176-c-k-c0x00ffffff-no-rj");
-    
+body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
         width: 1600px
         height: 1000px;
     @media screen and (min-width: 460px) 
@@ -8,6 +7,7 @@ body{background-image: url("https://yt3.ggpht.com/HnGDsxXvS688Q-X2CJDDVZm1qFR-9u
     @media screen and (min: width 600px;) 
        body 
           width: 520px;
+       
        }
 
 p{background-color: rgba(0, 140, 255, 0.699);}
