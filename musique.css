@@ -1,24 +1,17 @@
 h3{background-image: url(שירים.jpeg);
 color: cornflowerblue;}
 body{background-image: url(שירים.jpeg);
-          width: 1600px
-        height: 1000px;
-    @media screen and (min-width: 460px) 
-       body 
-          width:380px;
-    @media screen and (min: width 600px;) 
-       body 
-          width: 520px;  }
-@media screen and (min-width: 800px) 
-   body 
-      width:720px;   }
-      @media screen and (max-width:1000px) {
-        body{
-            width:90%;
-           margin: 90%;
-           height:90% ;
+     }
      
-        }  
+      @media screen and (max-width:1500px) {
+         body{
+             width:90%;
+             height: 90%;
+      
+         }
         iframe{
-          width: 90%;
+            width: 90%;
         }
+        
+       }
+
