@@ -1,39 +1,30 @@
-body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
-        width: 1600px
-        height: 1000px;
-    @media screen and (min-width: 460px) 
-       body 
-          width:380px;
-    @media screen and (min: width 600px;) 
-       body 
-          width: 520px;
-       
-       }
-
-p{background-color: rgba(0, 140, 255, 0.699);}
-em{background-color: rgba(47, 47, 226, 1.00);}
-.halakha{background-color: rgb(80, 197, 197);}
-#halakha{background-color: rgb(58, 143, 146);}
-#horaires{background-color:rgb(128,255,212);}
-h
-
-
-@media screen and (max-width:1500px) {
-   body{
-       width:90%;
-       height: 90%;
-
-   }
-  iframe{
-      width: 90%;
+ body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
   }
-
-  
- audio{width: 90%;
-                
-                height: 90%;
+    
+         
+         #halakha{color: greenyellow;}
+           
+          h1{text-align: center;
+        color: blue;}
+          p{text-align: center; 
+        color: blueviolet;}
+        .v{background-color: rgb(18, 228, 18);}
+        .h{background-color: rgba(0, 253, 253, 0.863);}
+        .m{background-color: rgba(197, 75, 75, 0.623);}
+        
+            @media screen and (max-width:1500px),(min-width:1000px) {
+              body{
+                  width:90%;
+                  height: 90%;
+           
               }
-
-           video{
+             iframe{
                  width: 90%;
              }
+             
+            }
+            #video{
+              width: 90%;
+              margin: auto;
+              height: 90%;
+            }
