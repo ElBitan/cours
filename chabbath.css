@@ -1,21 +1,17 @@
 h1{color: orange;}
 .chabbath{color: orangered;}
 body{background-image: url(chabbath.jfif);
- width:1920px;
-    height:1080px;
-@media screen and (min-width: 500px) 
-   body {
-      width:420px;}
-@media screen and (min-width: 800px) 
-   body 
-      width:720px;}
+}
    
 
 img{font-size: 1px ;}
-@media screen and (max-width:1000px) {
-   img{
+@media screen and (max-width:1500px),(min-width:1000px) {
+   body{
        width:90%;
-       margin: auto;
        height: 90%;
-
    }
+   iframe{
+      width: 90%;
+  }
+   
+}
