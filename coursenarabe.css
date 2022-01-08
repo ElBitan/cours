@@ -11,6 +11,8 @@ h4{background-color: rgb(255, 127, 80);}
 h2{background-color: rgb(37, 153, 153);}
 #r{background-color:rgb(52, 255, 52) ;}
 #f{background-color: rgba(116, 25, 25, 0.603);}
+#b{background-color: rgba(214, 126, 75, 0.87);}
+
 @media screen and (max-width:1500px) {
 body{
    width:90%;
