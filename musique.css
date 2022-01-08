@@ -2,6 +2,7 @@ h3{background-image: url(שירים.jpeg);
 color: cornflowerblue;}
 body{background-image: url(שירים.jpeg);
      }
+ #R{color: red;}
      
       @media screen and (max-width:1500px) {
          body{
