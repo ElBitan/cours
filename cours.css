@@ -15,17 +15,16 @@
     .topnav {
       overflow: hidden;
       background-image:  url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
-      background-color: #fff8f8;
+      background-color: black;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .topnav a {
       float: left;
       display: block;
-      color: rgb(102, 255, 0);
-      text-align: center;
+      color: white;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 18px;
     }
     .topnav a:hover {
       background-color:rgba(255, 255, 255, 0.849);
@@ -34,7 +33,8 @@
     .topnav a.active {
       background-image:  url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
       background-color: green ;
-      color: rgb(255, 0, 0);
+      color: orange;
+      font-size: 18px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .topnav .icon {
