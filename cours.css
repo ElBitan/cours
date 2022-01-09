@@ -1,4 +1,4 @@
-body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
+ body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -9,43 +9,18 @@ body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b
            
           h1{text-align: center;
         color: blue;}
-          p{text-align: center; 
-        color: rgb(0, 0, 0);}
-       .h{
-        background-color: red;
-        box-shadow: 0 5px 0 transparent;
-        color: rgb(30, 255, 0);
-       padding: 1em 1.5em;
-       position: relative;
-       text-decoration: none;
-       display: inline-block;
-    }
-        .m{
-          background-color: purple;
-          box-shadow: 0 5px 0 transparent;
-          color: black;
-         padding: 1em 1.5em;
-         position: relative;
-         text-decoration: none;
-         display: inline-block;
-      }
-      .c{
-        background-color: blue;
-        box-shadow: 0 5px 0 transparent;
-        color: white;
-       padding: 1em 1.5em;
-       position: relative;
-       text-decoration: none;
-       display: inline-block;
-    }
+          h2{text-align: center; 
+        color: rgb(5, 255, 230);}
+       
     .topnav {
       overflow: hidden;
-      background-color: #333;
+      background-image:  url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
+      background-color: #808080;
     }
     .topnav a {
       float: left;
       display: block;
-      color: #f2f2f2;
+      color: white;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -56,8 +31,9 @@ body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b
       color: black;
     }
     .topnav a.active {
-      background-color: #04AA6D;
-      color: white;
+      background-image:  url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
+      background-color:rgba(100, 100, 100, 0.842) ;
+      color: turquoise;
     }
     .topnav .icon {
       display: none;
