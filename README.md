@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <h1>COURS</h1>
     <p>un cours de torah</p>
      
 <div class="topnav" id="myTopnav">
