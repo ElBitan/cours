@@ -18,6 +18,9 @@ h2{background-color: rgb(37, 153, 153);}
 
 #rhhy{background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);}
 
+#az{background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);}
+
+#ab{background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);}
 
 
 @media screen and (max-width:1500px) {
