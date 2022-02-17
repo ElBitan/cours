@@ -37,11 +37,13 @@ function myFunction() {
     <em>Halakha-Time : Moussaf de Chabbath : avec ou sans répétition ?</em>
     <section class="halakha ">
         <br>
-         <a href ="Halakha-Time  Moussaf de Chabbath  avec ou sans répétition.mp4" id="halakha">Halakha</a>
+          <video width="320" height="240" controls>
+ <source src="Halakha-Time  Moussaf de Chabbath  avec ou sans répétition.mp4" type="vidio/ogg">
+ <source
+ src="Halakha-Time  Moussaf de Chabbath  avec ou sans répétition.mp4" type="video/mp4">
 
-        <div id="video">
-         <video src="Halakha-Time  Moussaf de Chabbath  avec ou sans répétition.mp4" width="90%" height="90%"></video>
-         </div>
+
+      </video>
     </section>
     <audio controls="controls" preload="auto"> 
         <source src="השיעור השבועי של הרב הגאון רבי מקיקץ מדאר שליט״א פרשת וארא.mpeg" type="audio/mpeg" /> 
