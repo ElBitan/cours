@@ -7,30 +7,37 @@
     <link rel="stylesheet" href="cours.css">
 </head>
 <body>
-
-    <p>un cours de torah</p>
+  <div class="navbar">
+ 
+    <!-- Navbar logo -->
+    <div class="nav-header">
+      <div class="nav-logo">
+        <a href="#">
+          <img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" width="60px" alt="logo">
+        </a>
+      </div>
+    </div>
      
-<div class="topnav" id="myTopnav">
-  <a href="coursenarabe.html" class="active">COURS EN ARABE</a>
-  <a href="musique.html">שירים</a>
-  <a href="horaires de chabbath.html">HORAIRES DE CHABBATH</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <icon>=</icon>
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+    <!-- responsive navbar toggle button -->
+    <input type="checkbox" id="nav-check">
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+   
+    <!-- Navbar items -->
+    <div class="nav-links">
+      <a href="coursenarabe.html">COURS EN ARABE</a>
+      <a href="musique.html">שירים</a>
+      <a href="horaires de chabbath.html">HORAIRES DE CHABBATH</a>
+     
+    </div>
+   
+  </div>
+  
 <br>
        <iframe width="560" height="315" src="https://www.youtube.com/embed/J_sg5oqXUms" id="youtube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br>
