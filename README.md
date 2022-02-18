@@ -52,6 +52,10 @@
 
       </video>
     </section>
+<h3 id=Dhm>Des histoires miraculeuses sur rav Benyamine cohen z"l (cours en hébreu traduit en français)</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-TAPw_pEe7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
     <audio controls="controls" preload="auto"> 
         <source src="השיעור השבועי של הרב הגאון רבי מקיקץ מדאר שליט״א פרשת וארא.mpeg" type="audio/mpeg" /> 
        </audio> 
