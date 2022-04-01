@@ -41,13 +41,14 @@ h2{background-color: rgb(37, 153, 153);}
 
 
 @media screen and (max-width:1500px) {
-body{
-   width:90%;
-   height: 90%; 
-
-}
-iframe{
-  width: 95%;
-}
-#imo{width: 95%;}
-}
+   body{
+      width:90%;
+      height: 90%; 
+   
+   }
+   iframe{
+     width: 95%;
+   height: 400px;
+   }
+   #imo{width: 95%;}
+   }
