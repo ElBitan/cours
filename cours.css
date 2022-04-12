@@ -153,8 +153,8 @@ h3{background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);}
     
             @media screen and (max-width:1500px),(min-width:1000px) {
               body{
-                  width:90%;
-                  height: 90%;
+                  width:99,9%;
+                  height: 99%;
            
               }
              iframe{
