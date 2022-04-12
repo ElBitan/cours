@@ -7,7 +7,31 @@
     <link rel="stylesheet" href="cours.css">
 </head>
 <body>
-  <div class="navbar">
+ <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDfa65bjGo07JpQN87b6rTsfGc2WG4GdAY",
+      authDomain: "cours-box.firebaseapp.com",
+      projectId: "cours-box",
+      storageBucket: "cours-box.appspot.com",
+      messagingSenderId: "699755404812",
+      appId: "1:699755404812:web:abf81286217a99b2345829",
+      measurementId: "G-8VGPY709QS"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+    
+    <div class="navbar">
  
     <!-- Navbar logo -->
     <div class="nav-header">
