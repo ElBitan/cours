@@ -190,11 +190,11 @@ video{width: 600px;
          
             }
            iframe{
-               width: 50%;
+               width: 80%;
            }
           video{
-            width:50%;
-                height: 50%;
+            width:80%;
+                height: 80%;
           } 
       #audio{
         width:50%;
