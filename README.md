@@ -50,16 +50,7 @@
         <span></span>
       </label>
     </div>
-
-   
-    <!-- Navbar items -->
-    <div class="nav-links">
-      <a href="coursenarabe.html">COURS EN ARABE</a>
-      <a href="musique.html">שירים</a>
-      <a href="horaires de chabbath.html">HORAIRES DE CHABBATH</a>
- 
-    
-      <div class="submenu-horaires">
+<div class="submenu-horaires">
         <div class="container py-2 text-center">
             <div class="col-9 col-md-12">
                 <h4>Horaires du Chabbat</h4>
@@ -77,7 +68,18 @@
             </div>
         </div>
       </div>
-    </div>
+   
+    <!-- Navbar items -->
+    <div class="nav-links">
+     
+        <a href="coursenarabe.html">COURS EN ARABE</a>
+      <a href="musique.html">שירים</a>
+      <a href="horaires de chabbath.html">HORAIRES DE CHABBATH</a>
+ 
+    
+     
+   
+        </div>
     </div>
     
     
