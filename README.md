@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -91,5 +91,3 @@
         <source src="השיעור השבועי של הרב הגאון רבי מקיקץ מדאר שליט״א פרשת וארא.mpeg" type="audio/mpeg" /> 
        </audio> </div>
   
-</body>
-</html>
