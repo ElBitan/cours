@@ -38,6 +38,24 @@
         <a href="#">
           <img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" width="60px" alt="logo">
         </a>
+          <div class="submenu-horaires">
+        <div class="container py-2 text-center">
+            <div class="col-9 col-md-12">
+                <h4>Horaires du Chabbat</h4>
+                <h5>Vendredi 15 Avril 2022</h5>
+                <div class="entree-sortie my-2">
+                    <strong>
+                    Entrée à </strong> <strong>20:24</strong>
+                   <br>
+                    <strong>
+                    Sortie à </strong>
+                    <strong>21:34</strong></div>
+                <div class="ville-horaire">
+                    <a href="javascript:;" class="ajax-modal"><i class="fas fa-map-marker-alt"></i> Paris</a>
+                </div>
+            </div>
+        </div>
+      </div>
       
     </div>
      
