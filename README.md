@@ -30,17 +30,15 @@
   </script>
     </head>
 <body>
-
-    
-    <div class="navbar">
- 
+ <div class="navbar">
+ +
     <!-- Navbar logo -->
     <div class="nav-header">
       <div class="nav-logo">
         <a href="#">
           <img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" width="60px" alt="logo">
         </a>
-      </div>
+      
     </div>
      
     <!-- responsive navbar toggle button -->
@@ -52,14 +50,16 @@
         <span></span>
       </label>
     </div>
+
    
     <!-- Navbar items -->
     <div class="nav-links">
       <a href="coursenarabe.html">COURS EN ARABE</a>
       <a href="musique.html">שירים</a>
       <a href="horaires de chabbath.html">HORAIRES DE CHABBATH</a>
-     
-        <div class="submenu-horaires">
+ 
+    
+      <div class="submenu-horaires">
         <div class="container py-2 text-center">
             <div class="col-9 col-md-12">
                 <h4>Horaires du Chabbat</h4>
@@ -78,9 +78,9 @@
         </div>
       </div>
     </div>
-   
-  </div>
-  
+    </div>
+    
+    
 <br>
        <iframe width="560" height="315" src="https://www.youtube.com/embed/J_sg5oqXUms" id="youtube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br>
