@@ -183,23 +183,27 @@ video{width: 600px;
      
 
   
-         @media screen and (max-width:1500px),(min-width:1000px) {
+   @media screen and (max-width:1500px),(min-width:1000px) {
             body{
-                width:100%;
-         
+                width:99,9%;
+                height: 99%;
          
             }
            iframe{
-               width: 90%;
+               width: 70%;
            }
           video{
-            width:90%;
-                height: 90%;
-          } 
-      #audio{
-        width:50%;
+            width:70%;
                 height: 50%;
+          } 
+          audio{
+            width:70%;
+                    height: 100%;
+          }
+          #audio{
+        width:80%;
+                height: 80%;
       }
       }
-         
+       
             
