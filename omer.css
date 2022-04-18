@@ -1,0 +1,38 @@
+body{background-image: url(https://th.bing.com/th/id/R.5ffa729b75419ee8028d861c8b2809c3?rik=CtZB5ZgKof6c6g&riu=http%3a%2f%2fwww.acheinu.co.il%2fwp-content%2fuploads%2f2018%2f05%2f5012.jpg&ehk=fAR0Yhie3lIFQkWhw44KtCOICJ90%2f%2bvzEHOt0Zs2fcA%3d&risl=&pid=ImgRaw&r=0);
+background-size: 100%;
+    background-repeat: no-repeat;}
+
+
+
+span{display: flex;
+    justify-content: center;
+    }
+
+          img{width: 900px;}
+
+
+a{color: rgb(196, 152, 152);
+background-color: black;}
+
+
+a{
+    width: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+a{box-sizing: border-box;
+border-style: solid;
+border-width: 20px;
+    background-color: black;}
+
+
+@media screen and (max-width:1500px),(min-width:1000px) {
+    body{
+        width:99z,1%;
+        height: 100%;
+ 
+    }
+    img{ width: 70%;}
+        a{ width: 10%;}
+    }
