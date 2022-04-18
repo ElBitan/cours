@@ -33,7 +33,7 @@
 <body>
  
   <div class="navbar">
- +
+ 
     <!-- Navbar logo -->
     <div class="nav-header">
       <div class="nav-logo">
@@ -41,7 +41,8 @@
           <img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" width="60px" alt="logo">
         </a>
       
-    </div>
+  
+
      
     <!-- responsive navbar toggle button -->
     <input type="checkbox" id="nav-check">
