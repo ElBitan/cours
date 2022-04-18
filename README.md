@@ -58,6 +58,7 @@
         <a href="coursenarabe.html">COURS EN ARABE</a>
       <a href="musique.html">שירים</a>
       <a href="horaires de chabbath.html">HORAIRES DE CHABBATH</a>
+        <a href="omer.html">Compte-du-Omer</a>
  
     
      
