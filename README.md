@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -60,6 +60,23 @@
       <a href="musique.html">שירים</a>
       <a href="horaires de chabbath.html">HORAIRES DE CHABBATH</a>
      <a href="omer.html">Compte-du-Omer</a>
+    
+     <<!-- <div class="submenu-horaires">
+        <div class="container py-2 text-center">
+            <div class="col-9 col-md-12">
+                <h4>Horaires du Chabbat</h4>
+                <h5>Vendredi 22 Avril 2022</h5>
+                <div class="entree-sortie my-2">
+                    <strong>
+                    Entrée à </strong> <strong>20:34</strong>
+                   <br>
+                    <strong>
+                    Sortie à </strong>
+                    <strong>21:46</strong></div>
+                <div class="ville-horaire">
+                    <a href="javascript:;" class="ajax-modal"><i class="fas fa-map-marker-alt"></i> Paris</a>
+                </div>
+            </div>-->>
         </div>
       </div>
     </div>
@@ -99,4 +116,5 @@
 <script src="cours.js"></script>
       </body>
 </html>
+
 
