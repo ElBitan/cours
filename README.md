@@ -6,29 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cours de torah</title>
     <link rel="stylesheet" href="cours.css">
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-    
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyDfa65bjGo07JpQN87b6rTsfGc2WG4GdAY",
-        authDomain: "cours-box.firebaseapp.com",
-        projectId: "cours-box",
-        storageBucket: "cours-box.appspot.com",
-        messagingSenderId: "699755404812",
-        appId: "1:699755404812:web:abf81286217a99b2345829",
-        measurementId: "G-8VGPY709QS"
-      };
-    
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
-    </script>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
   </head>
 <body>
  
