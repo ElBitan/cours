@@ -1,0 +1,29 @@
+body{background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #audio{
+    width: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;}
+
+
+
+
+
+
+
+    @media screen and (max-width:1500px),(min-width:1000px) {
+        body{
+            width:99,9%;
+            height: 99%;
+     
+        }
+      #audio{
+    width:50%;
+            height: 50%;
+  }
+  }
