@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cours de torah</title>
     <link rel="stylesheet" href="cours.css">
-  <link rel="shortcut icon" href="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
-    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+    <link rel="manifest" href="/manifest.json">
     <link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials">
+          <link rel="sapple-tuch-iconhref"="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+    <style type="text/css">
+.auto-style1 {
+	margin-left: 0;
+}
+</style>
   </head>
 <body>
  
@@ -18,11 +24,10 @@
     <div class="nav-header">
       <div class="nav-logo">
         <a href="#">
-          <img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" width="60px" alt="logo">
+          <img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" width="60px" alt="logo" class="auto-style1">
         </a>
       
-  
-
+    </div>
      
     <!-- responsive navbar toggle button -->
     <input type="checkbox" id="nav-check">
@@ -86,16 +91,14 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T5qVe-hE7dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
-   <h3>הרב הגאון הגדול רבי יצחק ברדא שליט"א מה כל כך מיוחד בשבת שלנו וכמה היא יכולה להשפיע עלינו?</h3>
+  <!-- <h3>הרב הגאון הגדול רבי יצחק ברדא שליט"א מה כל כך מיוחד בשבת שלנו וכמה היא יכולה להשפיע עלינו?</h3>
    
    <iframe width="560" height="315" src="https://www.youtube.com/embed/GwW9XSgBjEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
+  -->
    <div id="audio">
   <audio controls="controls" preload="auto"> 
         <source src="השיעור השבועי של הרב הגאון רבי מקיקץ מדאר שליט״א פרשת וארא.mpeg" type="audio/mpeg" /> 
        </audio> </div>
-<script src="cours.js"></script>
+<script src="app.js"></script>
       </body>
 </html>
-
-
