@@ -104,7 +104,9 @@
        </audio> </div>
 	
 	<br>
-       <img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" alt="h">
+       <div id="image">
+        <img id="image" src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" alt="h">
+</div>
 	
 <script src="app.js"></script>
       </body>
