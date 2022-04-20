@@ -99,10 +99,6 @@
    
    <iframe width="560" height="315" src="https://www.youtube.com/embed/GwW9XSgBjEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   -->
-   <div id="audio">
-  <audio controls="controls" preload="auto"> 
-        <source src="השיעור השבועי של הרב הגאון רבי מקיקץ מדאר שליט״א פרשת וארא.mpeg" type="audio/mpeg" /> 
-       </audio> </div>
 	
 	<br>
        <div id="image">
