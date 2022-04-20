@@ -107,7 +107,7 @@ video{width: 600px;
 
 
 
-      @media (max-width:700px) {
+      @media (max-width:816px) {
         .navbar .nav-btn{
           display: inline-block;
           position: absolute;
