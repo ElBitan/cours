@@ -9,7 +9,11 @@
     <link rel="shortcut icon" href="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
     <link rel="manifest" href="/manifest.json">
     <link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials">
-    <style type="text/css">
+    <link rel="apple-tuch-icon"href="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+    <meta name="apple-mobile-web-app-status-bar" content="white">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="white">
+	<style type="text/css">
 .auto-style1 {
 	margin-left: 0;
 }
