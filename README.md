@@ -73,7 +73,7 @@
     </div>
 
 <br>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/J_sg5oqXUms" id="youtube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="853" height="300" src="https://www.youtube.com/embed/J_sg5oqXUms" id="youtube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
        <br>
     <em>Halakha-Time : Moussaf de Chabbath : avec ou sans répétition ?</em>
@@ -88,11 +88,11 @@
       </video>
     </section>
 <h3 id=Dhm>Des histoires miraculeuses sur rav Benyamine cohen z"l (cours en hébreu traduit en français)</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-TAPw_pEe7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="853" height="300" src="https://www.youtube.com/embed/-TAPw_pEe7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h3>קריאת מגילת אסתר נוסח ג'רבא החזן: רבי ינון ביתאן שליט״א </h3>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T5qVe-hE7dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="853" height="300" src="https://www.youtube.com/embed/T5qVe-hE7dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
   <!-- <h3>הרב הגאון הגדול רבי יצחק ברדא שליט"א מה כל כך מיוחד בשבת שלנו וכמה היא יכולה להשפיע עלינו?</h3>
