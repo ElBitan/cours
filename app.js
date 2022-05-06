@@ -1,3 +1,3 @@
 if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("swr.js");
+    navigator.serviceWorker.register("serviceWorker.json");
   }
