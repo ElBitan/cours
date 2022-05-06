@@ -10,7 +10,13 @@ iframe{
     margin: auto;
    
 }
-
+#apk{
+   background-color: #12a161;
+   color: white;
+}
+#ahm{
+   background-color: #05055a;
+   color: white;
 #rbs{background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);}
 
 #hul{background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);}
