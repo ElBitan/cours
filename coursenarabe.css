@@ -1,13 +1,15 @@
 body{background-image: url("https://yt3.ggpht.com/HnGDsxXvS688Q-X2CJDDVZm1qFR-9ulDLLRaegeiy_cm6ttRPbgV7LkCJJavGvkNfjMEpp0k=s176-c-k-c0x00ffffff-no-rj");
-   backface-visibility: visible;
+ backface-visibility: visible;
    background-size: 100%;
 }
-   #imo{
+#imo{
 text-align: center;
+margin: auto;}
+#ima{text-align: center;
 margin: auto;}
 iframe{
    text-align: center;
-    margin: auto;
+margin: auto;
    
 }
 #apk{
@@ -17,12 +19,11 @@ iframe{
 #ahm{
    background-color: #05055a;
    color: white;
-#rbs{background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);}
-
+}
 #hul{background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);}
 #rgh{background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);}
-#rmha{background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);}
-#pr{background-color: rgba(78, 140, 255, 0.979);}
+   #rmha{background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);}
+  #pr{background-color: rgba(78, 140, 255, 0.979);}
 .sa{background-color: #0000ff;}
 p{background-color: rgba(0, 140, 255, 0.699);}
 em{background-color: rgb(80, 197, 197);}
@@ -52,20 +53,19 @@ h2{background-color: rgb(37, 153, 153);}
 
 
 
-
-
-@media screen and (max-width:1500px),(min-width:1000px) {
+ 
+@media screen and (max-width:1500px) {
    body{
-      width:99,9%;
-      height: 99%; 
+      width:90%;
+      height: 90%; 
    
    }
    iframe{
-     width: 70%;
+     width: 95%;
    }
    #imo{width: 95%;}
-   }
- iframe{
+   iframe{
       text-align: center;
         margin: auto;
    }
+}
