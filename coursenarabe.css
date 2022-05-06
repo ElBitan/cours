@@ -7,14 +7,8 @@ text-align: center;
 margin: auto;}
 #ima{text-align: center;
 margin: auto;}
-iframe  {width: 600px;
-   display: block;
-margin-right: auto;
-  margin-left: auto;}
-p1 {width: 600px;
-   display: block;
-margin-right: auto;
-  margin-left: auto;}
+iframe  {text-align: center;}
+p1 {text-align: center;}
 #apk{
    background-color: #12a161;
    color: white;
@@ -57,17 +51,18 @@ h2{background-color: rgb(37, 153, 153);}
 
 
 
-
- 
 @media screen and (max-width:1500px) {
-  body{
+   body{
       width:90%;
       height: 90%;
 
   }
-  iframe{
+   iframe{
       width: 70%;
   }
    #imo{width: 95%;}
-
+  
+   iframe{text-align: center;}
 }
+ 
+
