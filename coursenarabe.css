@@ -54,14 +54,14 @@ h2{background-color: rgb(37, 153, 153);}
 
 
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1500px),(min-width:1000px) {
    body{
-      width:90%;
-      height: 90%; 
+      width:99,9%;
+      height: 99%; 
    
    }
    iframe{
-     width: 95%;
+     width: 70%;
    }
    #imo{width: 95%;}
    }
