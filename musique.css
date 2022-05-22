@@ -3,7 +3,7 @@ color: cornflowerblue;}
 body{background-image: url(שירים.jpeg);
      }
  #R{color: red;}
-
+h3{text-align: center;}
 #me{background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 color:white;}
 #my{background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);}
