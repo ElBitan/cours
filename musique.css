@@ -1,26 +1,147 @@
 h3{background-image: url(שירים.jpeg);
-color: cornflowerblue;}
-body{background-image: url(שירים.jpeg);
-     }
- #R{color: red;}
-h3{text-align: center;}
-#me{background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-color:white;}
-#my{background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);}
-iframe{border-radius: 30px;
-width: 600px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;}
-     
-      @media screen and (max-width:1500px) {
-         body{
-             width:99,9%;
-             height: 100%;
-      
+    color: cornflowerblue;}
+    body{background-image: url(שירים.jpeg);
          }
-        iframe{
-            width: 70%;
-        }
-        
-       }
+     #R{color: red;}
+    h3{text-align: center;}
+    #me{background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color:white;}
+    #my{background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);}
+    iframe{border-radius: 30px;
+    width: 600px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;}
+         
+a{text-align: center;}
+
+        /* Barre de navigation */
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+  }
+  input{
+    margin: 8px 20px;
+    padding: 5px;
+    border-radius: 20px;
+    border:none;
+    background-color: white;
+    outline:none;
+  }
+  /* Fin de la barre de navigation */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  
+  .nav {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+  
+    display: inline;
+  float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: white;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:3000px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: black;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #4d4d4d;
+    }
+    .nav > .nav-links {
+      float: right;
+      display: block;
+      width: 100%;
+      background-color: white;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
+          @media screen and (max-width:1500px) {
+             body{
+                 width:99,9%;
+                 height: 100%;
+          
+             }
+            iframe{
+                width: 70%;
+            }
+            
+           }
