@@ -86,7 +86,7 @@ width: 600px;
       }
       /* Hover effects */
       .navbar .nav-links a:hover{
-        background-color: blue;
+        background-color: rgb(9, 81, 90);
       }
        
       /* responsive navbar toggle button */
