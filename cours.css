@@ -140,7 +140,7 @@ width: 600px;
           display: block;
           text-align: center;
           width: 100%;
-          background-color: rgb(9, 14, 90);
+          background-color: cadetblue;
           transition: all 0.3s ease-in;
           overflow-y: hidden;
           top: 70px;
