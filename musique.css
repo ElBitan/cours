@@ -7,7 +7,11 @@ body{background-image: url(שירים.jpeg);
 #me{background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 color:white;}
 #my{background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);}
-
+iframe{border-radius: 30px;
+width: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;}
      
       @media screen and (max-width:1500px) {
          body{
@@ -16,7 +20,7 @@ color:white;}
       
          }
         iframe{
-            width: 90%;
+            width: 70%;
         }
         
        }
