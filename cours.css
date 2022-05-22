@@ -136,7 +136,7 @@ video{width: 600px;
           position: absolute;
           display: block;
           text-align: center;
-          width: 50%;
+          width: 100%;
           background-color: rgb(9, 14, 90);
           transition: all 0.3s ease-in;
           overflow-y: hidden;
