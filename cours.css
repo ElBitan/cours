@@ -133,7 +133,7 @@ width: 600px;
           border-top: 3px solid #eee;
         }
         .navbar .nav-btn label:hover, .navbar #nav-check:checked ~ .nav-btn label {
-          background-color: rgb(9, 14, 90);
+          background-color: rgb(9, 81, 90);
         }
         .navbar .nav-links{
           position: absolute;
