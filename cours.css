@@ -22,16 +22,19 @@ text-align: center;}
 h3{background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 text-align: center;}
 #audio{
+border-radius: 30px;
   width: 600px;
   display: block;
   margin-right: auto;
   margin-left: auto;}
-video{width: 600px;
+video{border-radius: 30px;
+width: 600px;
   display: block;
   margin-right: auto;
   margin-left: auto;}
   
-  iframe{width: 600px;
+  iframe{border-radius: 30px;
+width: 600px;
     display: block;
     margin-right: auto;
     margin-left: auto;}
