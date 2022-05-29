@@ -27,34 +27,88 @@
 </style>
   </head>
 <body>
-  <div class="navbar">
-    <!-- Navbar logo -->
-    <div class="nav-header">
-      <div class="nav-logo">
-        <a href="#">
-          <img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" width="60px" alt="logo" class="auto-style1">
-        </a>
+ 
+
+
+           
+
+
+
+
+
+
+   <!--  <div class="submenu-horaires">
+        <div class="container py-2 text-center">
+
+            <div class="col-9 col-md-12">
+                <h4>Horaires du Chabbat</h4>
+                <h5>Vendredi 22 Avril 2022</h5>
+                <div class="entree-sortie my-2">
+                    <strong>
+                    Entrée à </strong> <strong>20:34</strong>
+                   <br>
+                    <strong>
+                    Sortie à </strong>
+                    <strong>21:46</strong></div>
+                <div class="ville-horaire">
+                    <a href="javascript:;" class="ajax-modal"><i class="fas fa-map-marker-alt"></i> Paris</a>
+                </div>
+            </div>-->
+      
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     </div>
+      </div>
     </div>
-     
-    <!-- responsive navbar toggle button -->
-    <input type="checkbox" id="nav-check">
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
     </div>
 
-   
-    <!-- Navbar items -->
-    <div class="nav-links">
-      <a href="coursenarabe.html">COURS EN ARABE</a>
-      <a href="musique.html">שירים</a>
-      <a href="horaires de chabbath.html">HORAIRES DE CHABBATH</a>
-     <a href="omer.html">Compte-du-Omer</a>
-     <a href="audio.html">cours-audio</a>
-   <!--  <div class="submenu-horaires">
+<nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#"> <img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" width="60px" alt="logo" class="auto-style1"></a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#"><img src="https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0" width="60px" alt="logo" class="auto-style1"></a></a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="coursenarabe.html
+">COURS EN ARABE</a></li>
+                    <li><a href="musique.html">שירים</a></li>
+                    <li><a href="horaires de chabbath.html">HORAIRES DE CHABBATH</a></li>
+                    <li><a href="omer.html">Compte-du-Omer</a></li>
+  <li><a href="audio.html">cours-audio</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    
+                   </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+<br><br>
+<br><br>
+        <!--  <div class="submenu-horaires">
         <div class="container py-2 text-center">
             <div class="col-9 col-md-12">
                 <h4>Horaires du Chabbat</h4>
@@ -110,6 +164,54 @@ width="640" height="420" poster="https://www.torah-box.com/halakha-time/img/og.j
    
    <iframe width="560" height="315" src="https://www.youtube.com/embed/GwW9XSgBjEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   -->
+  
+<script>
+
+const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      searchToggle = document.querySelector(".searchToggle"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
+
+      let getMode = localStorage.getItem("mode");
+          if(getMode && getMode === "dark-mode"){
+            body.classList.add("dark");
+          }
+
+// js code to toggle dark and light mode
+      modeToggle.addEventListener("click" , () =>{
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
+
+        // js code to keep user selected mode even page refresh or file reopen
+        if(!body.classList.contains("dark")){
+            localStorage.setItem("mode" , "light-mode");
+        }else{
+            localStorage.setItem("mode" , "dark-mode");
+        }
+      });
+
+// js code to toggle search box
+        searchToggle.addEventListener("click" , () =>{
+        searchToggle.classList.toggle("active");
+      });
+ 
+      
+//   js code to toggle sidebar
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+
+</script>
         <script src="app.js"></script>
       </body>
 </html>
