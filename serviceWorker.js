@@ -1,53 +1,56 @@
-const CACHE_NAME = 'cours';
-const OFFLINE_URL = 'index.html';
+const staticCacheName = "cache-v1";
+const assets = ["/", "index.html"];
 
-self.addEventListener('install', function(event) {
-  console.log('[ServiceWorker] Install');
-  
-  event.waitUntil((async () => {
-    const cache = await caches.open(CACHE_NAME);
-    // Setting {cache: 'reload'} in the new request will ensure that the response
-    // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
-    await cache.add(new Request(cours_URL, {cache: 'reload'}));
-  })());
-  
-  self.skipWaiting();
+// ajout fichiers en cache
+self.addEventListener("install", (e) => {
+  e.waitUntil(
+    caches.open(staticCacheName).then((cache) => {
+      cache.addAll(assets);
+    })
+  );
 });
 
-self.addEventListener('activate', (event) => {
-  console.log('[ServiceWorker] Activate');
-  event.waitUntil((async () => {
-    // Enable navigation preload if it's supported.
-    // See https://developers.google.com/web/updates/2017/02/navigation-preload
-    if ('navigationPreload' in self.registration) {
-      await self.registration.navigationPreload.enable();
-    }
-  })());
+self.addEventListener("fetch", (event) => {
+  event.respondWith(
+    caches.match(event.request).then(function (response) {
+      // Cache hit - return response
+      if (response) {
+        return response;
+      }
 
-  // Tell the active service worker to take control of the page immediately.
-  self.clients.claim();
-});
+      // IMPORTANT: Cloner la requête.
+      // Une requete est un flux et est à consommation unique
+      // Il est donc nécessaire de copier la requete pour pouvoir l'utiliser et la servir
+      var fetchRequest = event.request.clone();
 
-self.addEventListener('fetch', function(event) {
-  // console.log('[Service Worker] Fetch', event.request.url);
-  if (event.request.mode === 'navigate') {
-    event.respondWith((async () => {
-      try {
-        const preloadResponse = await event.preloadResponse;
-        if (preloadResponse) {
-          return preloadResponse;
+      return fetch(fetchRequest).then(function (response) {
+        if (!response || response.status !== 200 || response.type !== "basic") {
+          return response;
         }
 
-        const networkResponse = await fetch(event.request);
-        return networkResponse;
-      } catch (error) {
-        console.log('[Service Worker] Fetch failed; returning offline page instead.', error);
+        // IMPORTANT: Même constat qu'au dessus, mais pour la mettre en cache
+        var responseToCache = response.clone();
 
-        const cache = await caches.open(CACHE_NAME);
-        const cachedResponse = await cache.match(cours_URL);
-        return cachedResponse;
-      }
-    })());
-  }
+        caches.open(staticCacheName).then(function (cache) {
+          cache.put(event.request, responseToCache);
+        });
+
+        return response;
+      });
+    })
+  );
+});
+
+// supprimer caches
+self.addEventListener("activate", (e) => {
+  e.waitUntil(
+    caches.keys().then((keys) => {
+      return Promise.add(
+        keys
+          .filter((key) => key !== staticCacheName)
+          .map((key) => caches.delete(key))
+      );
+    })
+  );
 });
 
