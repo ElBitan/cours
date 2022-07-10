@@ -2,9 +2,9 @@
 
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
 
-    "name": "Synagogue",
+    "name": "torah-cours",
 
-    "short_name": "Synagogue",
+    "short_name": "cours-box",
 
     "start_url": "https://coursdetorah.tk",
 
