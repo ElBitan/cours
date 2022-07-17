@@ -1,5 +1,5 @@
 const staticCacheName = "cache-v1";
-const assets = ["/", "index.html"];
+const assets = ["/", "index.html",];
 
 // ajout fichiers en cache
 self.addEventListener("install", (e) => {
@@ -53,4 +53,3 @@ self.addEventListener("activate", (e) => {
     })
   );
 });
-
