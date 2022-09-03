@@ -1,6 +1,4 @@
-body{background-image: url("https://yt3.ggpht.com/HnGDsxXvS688Q-X2CJDDVZm1qFR-9ulDLLRaegeiy_cm6ttRPbgV7LkCJJavGvkNfjMEpp0k=s176-c-k-c0x00ffffff-no-rj");
- backface-visibility: visible;
-   background-size: 100%;
+body{background-color:white;
 }
 #imo{
 text-align: center;
@@ -75,5 +73,10 @@ iframe{border-radius: 30px;}
   
    iframe{text-align: center;}
 }
- 
+ @media (prefers-color-scheme: dark) {
+body {
+background-color: #1c1c1e;
+color: #fefefe;
+}
+}
 
