@@ -11,7 +11,30 @@
 <body>
    <img src="chabbath.jfif" width="150" class="w-100" alt="image">
      <h1>Horaires de Chabbath</h1>
-     <h1 class="chabbath"> Paracha Ki-Tetsé </h1>
+
+  <h1 class="chabbath"><a href="#" id="a"> Paracha Ki-Tetsé </a> </h1>
+<body onload=showDate();> 
+ <span id='horloge'></span>
+<script>
+  function refresh(){
+             var t = 1000; // rafraîchissement en millisecondes
+             setTimeout('showDate()',t)
+         }
+         
+         function showDate() {
+             var date = new Date()
+             var h = date.getHours();
+             var m = date.getMinutes();
+             var s = date.getSeconds();
+             if( h < 10 ){ h = '0' + h; }
+             if( m < 10 ){ m = '0' + m; }
+             if( s < 10 ){ s = '0' + s; }
+             var time = h + ':' + m + ':' + s
+             document.getElementById('horloge').innerHTML = time;
+             refresh();
+          }
+</script>
+
 <div id="h">
 <a href="https://media.torah-box.com/chabbath-djerba-midun-tunisie_13738.jpg" class="picture-modal"><img src="https://media.torah-box.com/chabbath-djerba-midun-tunisie_13738.jpg" width="90%" class="w-100" alt="Horaires de Chabbat à Djerba Midun (Tunisie)"></a>
 
