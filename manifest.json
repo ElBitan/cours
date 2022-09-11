@@ -1,7 +1,7 @@
 
 {
-  "name": "megillat esther",
-  "short_name": "megillat esther",
+  "name": "cours-box",
+  "short_name": "Torah-cours",
   "lang": "fr",
   "start_url": "./index.html",
   "display": "standalone",
