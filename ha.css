@@ -1,11 +1,13 @@
-body{background-color:white;
+body{background-color: #FFF2FF;
+
 }
 #AZ{text-align:center;
- background-color:white;
+ background-color: #FFF2FF;
 color:black;
 }
 video{border-radius: 30px;
-margin: -40px;width: 600px;
+margin: -40px;
+width: 600px;
   display: block;
     margin-right: auto;
   margin-left: auto;}
@@ -33,10 +35,10 @@ iframe{border-radius: 30px;}
 
 @media (prefers-color-scheme: dark) {
 body {
-background-color: black;
+background-color: #1B161E;
 }
 #AZ{text-align:center;
- background-color:black;
+ background-color: #1B161E;
 color:white;
 }
-}
+}
