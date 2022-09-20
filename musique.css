@@ -145,3 +145,39 @@ nav{
             }
             
            }
+@media (prefers-color-scheme: dark) {
+body {
+background-color: #1c1c1e;
+color: #fefefe;
+}nav{
+    background-color:black;
+  }
+  input{
+    background-color: black;
+  }
+  .nav {
+    background-color: black;
+  }
+  .nav > .nav-header > .nav-title {
+color: white;
+  }
+  
+
+  
+  .nav > .nav-links > a {
+    color: white;
+    background-color: black;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: black;
+  }
+
+
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: white;
+    }
+    .nav > .nav-links {
+      background-color: black;
+    }
+}
