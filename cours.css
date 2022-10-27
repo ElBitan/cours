@@ -136,7 +136,7 @@ background-clip: content-box;
           width: 100%;
          background-image: url(https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=WB1JiSs5xu%2bAQQ&pid=ImgRaw&r=0);background-color: cadetblue;
 background-size: 100%  ;
-          transition: all 0.3s ease-in;
+          transition: all 0.1s ease-in;
           overflow-y: hidden;
           top: 80px;
           right: 0px;
