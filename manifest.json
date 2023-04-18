@@ -8,7 +8,7 @@
   "theme_color": "black",
   "icons": [{
       "src": "monlogo-removebg-preview.png",
-        "sizes": "127x128",
+        "sizes": "128x128",
         "type": "image/png"
       }, {
         "src": "monlogo-removebg-preview.png",
