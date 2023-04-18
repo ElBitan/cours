@@ -4,7 +4,7 @@
   "lang": "fr",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "white",
+  "background_color": "black",
   "theme_color": "black",
   "icons": [{
       "src": "monlogo-removebg-preview.png",
