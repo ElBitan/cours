@@ -1,7 +1,7 @@
  /* =========================================
            VARIABLES & THÈMES (Light / Dark)
            ========================================= */
-        :root {
+        root {
             /* MODE SOMBRE (Défaut) : Noir, Bleu, Vert */
             --bg-color: #050505;
             --bg-gradient: linear-gradient(135deg, #000000 0%, #020617 50%, #022c22 100%);
