@@ -4,7 +4,12 @@ a{background-color:black;}
   background-color: rgba(0, 0, 0, 0.179);
 }
 
-
+body{
+  background-image: url(monlogo-removebg-preview.png);
+  background-color: cadetblue;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* =========================================
    VARIABLES & THÈMES (Light / Dark)
